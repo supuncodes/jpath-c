@@ -1,0 +1,5 @@
+#!/bin/bash
+exename=jsontest
+rm ./$exename
+gcc jpath.c main.c -o $exename
+./$exename
